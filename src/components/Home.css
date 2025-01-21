@@ -1,0 +1,112 @@
+body {
+    margin : 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.auth-buttons button {
+    background: none;
+    border: none;
+    color: #a6a3a3;
+    font-size: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/*.auth-buttons button:hover {
+    color: #ff3366;
+}*/
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Pixeled';
+    src: url('../fonts/Pixeled.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.welcome-text {
+    font-size: 100px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    line-height: 2.0;
+    text-transform: uppercase;
+    font-family: 'Pixeled', "Courier New", monospace;
+    margin-bottom: 40px;
+}
+
+.welcome-word {
+    color: #6aeeff;
+    font-family: 'Pixeled', "Courier New", monospace;
+    text-align: left;
+}
+
+.coders-word {
+    color: #49a7FF;
+    font-family: 'Pixeled', "Courier New", monospace;
+    text-align: right;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.lines-top {
+    margin-bottom: 50px;
+}
+
+.lines-bottom {
+    margin-top: 80px;
+}
+
+.line {
+    height: 6px;
+}
+
+.line-1 {
+    background-color: #67ffb0;
+    width: 600px;
+}
+
+.line-2 {
+    background-color: #43feec;
+    width: 800px;
+}
+
+.line-3 {
+    background-color: #897eff;
+    width: 800px;
+}
+
+.line-4 {
+    background-color: #cd44ff;
+    width: 600px;
+}

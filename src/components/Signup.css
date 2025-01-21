@@ -1,0 +1,56 @@
+.signup-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.signup-container h1 {
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signup-form label {
+    font-size : 20px;
+    color: white;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.signup-form input::placeholder {
+    color: #777777;
+}
+
+.signup-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #121212;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/*
+커서 깜빡임
+이메일, 비밀번호 유효성 검사
+*/
